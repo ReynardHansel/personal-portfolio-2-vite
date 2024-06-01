@@ -1,0 +1,18 @@
+import "./App.css";
+import Navbar from "./components/navbar";
+
+function App() {
+  const sections = [
+    // { id: "welcome-section", name: "Welcome" },
+    { id: "projects", name: "Projects" },
+    { id: "contact", name: "Contact" },
+  ];
+
+  return (
+    <>
+    <Navbar sections={sections} />
+    </>
+  );
+}
+
+export default App;
